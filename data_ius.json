@@ -1,0 +1,317 @@
+{"intents":
+[
+    {"tag": "greetings",
+     "patterns": ["hello", "hey", "hi", "what's up?", "how is it going?", "good morning", "good afternoon", "good evening", "yo", "sup", "howdy", "hiya", "greetings", "hey there", "hi there", "what's good?", "how’s everything?", "how are you?", "nice to see you", "long time no see", "yo there"],
+     "responses": ["Hey there! Need help finding something? Just ask me!", "Hi! How can I assist you today?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["see you later", "goodbye", "have a good day", "bye", "see you", "talk to you later", "see you soon", "catch you later", "farewell", "take care", "later", "I’m out", "peace out", "talk soon", "bye bye", "catch you soon", "until next time", "I gotta go", "I'm leaving", "time to go", "see ya", "smell ya later", "adios", "ciao"],
+    "responses": ["Goodbye!", "Have a good day!", "See you soon!", "Take care!", "Catch you later!", "Bye for now!"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name?", "What should I call you", "whats your name", "who are you", "can you tell me your name", "may I know your name?", "do you have a name?", "tell me your name", "what do people call you?", "what are you called?", "who am I talking to?", "what’s your bot name?", "how should I address you?", "are you Neural?", "what's the assistant's name?"],
+        "responses": ["You can call me Neural.", "I am Neural!", "I'm Neural! The assistance of Shuvo"]
+      },
+      
+
+      {
+        "tag": "location",
+        "patterns": ["university of scholars location", "university location", "location", "where is the university campus", "campus location", "where is University of Scholars?", "what's the address of the university?", "can you tell me the university location?", "where is your campus located?", "where can I find the campus?", "what is the campus address?", "how do I get to University of Scholars?", "where are you located?", "where is your main campus?", "give me the university address"],
+        "responses": ["Address: Bulu Ocean Tower, 40 Kemal Ataturk Ave, Banani, Dhaka 1212."]
+      },
+      
+      {
+        "tag": "transport",
+        "patterns": ["university transport", "do the university have own transport", "is there university transport?", "does the university provide transport?", "does the university have buses?", "what about transportation?", "is transport available?", "is there a shuttle service?", "how do I get to the university?", "do you provide transport facilities?"],
+        "responses": ["Unfortunately, we do not have university transport."]
+      },
+      
+
+      {
+        "tag": "course",
+        "patterns": ["What programs and majors do you offer?", "Do you offer computer science?", "Do you offer cse?", "Do you offer bba?", "Do you offer english?", "Do you offer textile?", "do you offer EEE?", "Do you have cse course?", "is computer science available?", "is BBA available?", "does the university offer textile?", "do you provide EEE programs?"],
+        "responses": ["Yes, we offer that course."]
+      },
+      
+      {
+        "tag": "nocourse",
+        "patterns": ["Do you offer pharmacy?", "Do you offer Nursing?", "Do you offer Physics course?", "Do you offer Mathematics?", "is pharmacy available?", "do you offer nursing?", "is there a physics course?", "can I study mathematics?", "is nursing available?", "do you provide pharmacy programs?", "is physics offered?"],
+        "responses": ["Unfortunately, we do not offer that specific course at this time."]
+      },
+      {
+        "tag": "lab",
+        "patterns": ["What is your lab facilities?", "How many labs are there in your university?", "What kind of labs do you have?", "Can you tell me about the labs?", "How many labs are available in your university?", "How many labs are there in each department?", "What are the lab facilities at your university?", "Do you have computer science labs?", "Are there labs for electrical engineering?"],
+        "responses": [
+          "At the University of Scholars, we provide resourceful Computer Science and Engineering (CSE), Textile, and Electrical and Electronics Engineering (EEE) labs which are available at all times for students so that it is easier for them to enable practical knowledge.",
+          "There are around 25 labs in each department."
+        ]
+      },
+      {
+        "tag": "collaboration",
+        "patterns": ["do you have any collaboration?", "Do you have a collaboration with other universities?", "are there any collaborations?", "do you collaborate with other universities?", "is there any partnership with other institutions?", "does the university collaborate internationally?", "are there any joint programs?", "do you have partnerships with other universities?", "what collaborations does your university have?"],
+        "responses": [
+          "The University of Scholars has collaborated with a few locally and internationally to enhance knowledge, education, and, most importantly, different skills. Academic collaboration means a formal relationship of an educational nature with third parties, such as joint degree programs, memoranda of understanding, joint institutes or centers, and similar relationships."
+        ]
+      },
+      
+
+      {
+        "tag": "admission_requirements",
+        "patterns": ["Admission requirement", "what is the admission requirement of your university?", "what is the admission requirement?", "can you tell me the admission requirements?", "what are the requirements to get admitted?", "how can I apply?", "what is needed for admission?", "what documents do I need for admission?", "tell me the admission criteria?", "how do I get admission to your university?"],
+        "responses": [
+          "The minimum GPA in SSC/Dakhil and HSC/Alim or equivalent examinations must be 6.00 and at least 3.00 for each.",
+          "For A-Level Students: A student must complete at least 2 subjects, and before that, students must complete at least 5 subjects for O-Levels. A science background will be required to get admission to Engineering Programs.",
+          "For Diploma Engineering Students: Must have completed 3 or 4 years of diploma in any Engineering discipline from Bangladesh Technical Education Board (BTEB) with a minimum CGPA of 2.5 out of 4.00. OR A Diploma recognized by BTEB with a CGPA of 2.5 out of 4.00 in any engineering discipline from recognized institutions.",
+          "For MBA and Masters in Islamic Finance: Students must have a Bachelor's Degree in any discipline of study from any recognized university or a renowned institute. Candidates having foreign University degrees/diplomas/certificates may also apply.",
+          "For the children of Freedom Fighters: In the case of sons/daughters of Freedom Fighters, a total GPA of at least 5.00 in both SSC and HSC Examinations is required. However, candidates must include the official proof of the Father /Mother as a Freedom Fighter with the form."
+        ]
+      },
+      {
+        "tag": "tuitionfee_cse",
+        "patterns": ["cse cost?", "cse total cost", "cse admission fee", "cse tuition fee", "what is the cost for CSE?", "how much is the CSE tuition fee?", "what is the total cost for CSE?", "how much does the CSE program cost?", "cse fee details?", "how much is the CSE program?"],
+        "responses": ["Our BSc in CSE regular cost is 350,700 taka. After waiver, the total cost will be 330,700 taka. For more details, call 01971833381."]
+      },
+      {
+        "tag": "tuitionfee_bba",
+        "patterns": ["bba cost?", "bba total cost", "bba admission fee", "bba tuition fee", "what is the cost for BBA?", "how much is the BBA tuition fee?", "what is the total cost for BBA?", "how much does the BBA program cost?", "bba fee details?", "how much is the BBA program?"],
+        "responses": ["Our BSc in BBA regular cost is 2,91,700/- . After waiver, the total cost will be 2,45,700/- . For more details, call 01971833381."]
+      }
+      ,
+      {
+        "tag": "tuitionfee_eng",
+        "patterns": ["English cost?", "English total cost", "english admission fee", "english tuition fee", "what is the cost for English?", "how much is the English tuition fee?", "what is the total cost for English?", "how much does the English program cost?", "english fee details?", "how much is the English program?"],
+        "responses": ["Our B.A in English regular cost is 2,50,500/- . After waiver, the total cost will be 2,10,700/- . For more details, call 01971833381."]
+      },
+      {
+        "tag": "tuitionfee_eee",
+        "patterns": ["eee cost?", "EEE total cost", "eee admission fee", "eee tuition fee", "what is the cost for EEE?", "how much is the EEE tuition fee?", "what is the total cost for EEE?", "how much does the EEE program cost?", "eee fee details?", "how much is the EEE program?"],
+        "responses": [
+          "Our B.Sc. in EEE regular cost is 3,30,700/- . After waiver, the total cost will be 2,40,700/- . For more details, call 01971833381.",
+          "For diploma holders, B.Sc. in EEE regular cost is 3,30,700/-."
+        ]
+      },
+      {
+        "tag": "tuitionfee_tt",
+        "patterns": ["Textile cost?", "textile total cost", "textile admission fee", "textile tuition fee", "what is the cost for Textile?", "how much is the Textile tuition fee?", "what is the total cost for Textile?", "how much does the Textile program cost?", "textile fee details?", "how much is the Textile program?"],
+        "responses": [
+          "Our B.Sc. in Textile engineering regular cost is 3,30,700/- . After waiver, the total cost will be 2,40,700/- . For more details, call 01971833381.",
+          "For diploma holders, B.Sc. in Textile regular cost is 2,39,700/-."
+        ]
+      },
+      {
+        "tag": "admission_procedure",
+        "patterns": ["What is the admission procedure?", "admission procedure", "what is the admission system?", "admission process", "Admission system", "how do I apply?", "what documents are required for admission?", "can you tell me about the admission process?", "how do I get admission?", "what is the application procedure?"],
+        "responses": [
+          "Original certificates, mark sheets, and testimonials. Attested photocopies of all certificates, mark sheets, and testimonials. Applicant must submit a photocopy of the NID/Birth certificate of the (i) Applicant, (ii) Applicant's father and mother, and (iii) Tuition fee provider. Recently clicked four copies of passport-size and two copies of stamp-size color photographs.",
+          "Applicants can also collect admission forms from the Admission Office of the University of Scholars. Applicants must submit the completed application form to the Admission Office. The Admission Office of IUS will let you know the date and venue of the admission test (if you are eligible). Please pay attention to the Notice Board for admission test results."
+        ]
+      },
+      {
+        "tag": "admission_contact",
+        "patterns": ["How can I contact with admission office?", "admission office", "admission contact", "admission details", "contact for admission", "how do I reach the admission office?", "can you give me the admission office contact?", "what is the admission office phone number?", "how can I get in touch with the admission office?", "what is the contact information for admission?"],
+        "responses": [
+          "For Any Information Related Support; Please Contact: 01311057962 (Admission Office), 01844505111 (Admin Office), 01629444666 (Student Advisor). E-Mail: info@ius.edu.bd. Address: Bulu Ocean Tower, 40 Kemal Ataturk Ave, Banani, Dhaka 1212."
+        ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": ["scholarship", "do you have scholarship?", "any scholarship", "waiver", "do you have waiver?", "any waiver", "are there any scholarships available?", "is there any scholarship program?", "can I get a waiver?", "do you offer any discounts or waivers?"],
+        "responses": [
+          "100% Waiver for Freedom Fighters' Children (As per Govt. Rules). Up to 100% Waiver for Players. Up to 20% of Need-Based Scholarships. Up to 100% Result-Based Waiver.",
+          "One needs to provide a hard copy application - directed to the Chief Coordinating Officer (CCO) of the University of Scholars to the Admission Office for any other additional scholarship offers."
+        ]
+      },
+      {
+        "tag": "club",
+        "patterns": ["Do you have a club in University of Scholars?", "How many clubs in your university?", "university club", "club", "what clubs are available at your university?", "are there any clubs at University of Scholars?", "can you tell me about the clubs in your university?", "how many clubs are in your university?"],
+        "responses": [
+          "The University of Scholars has funded various clubs that the faculty members and students have built together. Almost all the departments at The University of Scholars are associated with one or more than one clubs.",
+          "The University of Scholars has funded various clubs - Scholars Photography Club, International University of Scholars Debate Club, IUSDC Scholars Communication Club, Scholars Sports Club, Electronics Club, Scholars Startup Club."
+        ]
+      },
+      {
+        "tag": "history",
+        "patterns": ["history of ius", "history of this university", "history of University of Scholars", "tell me about the history of your university", "what is the history of the University of Scholars?", "can you share the history of University of Scholars?", "how did the University of Scholars start?", "when was the University of Scholars established?"],
+        "responses": [
+          "The International University of Scholars, popularly known as the University of Scholars, started its journey in 2015 with a campus at Badda with five departments at the outset. The Trustee Board of the University aims to establish a research-intensive modern private university for Bangladeshi and international students who will produce world-class researchers and industry-leading professionals. The first batch of enrolment was done in 2016. The graduation of the 1st Master's batch was held in 2018, and the graduation of the 1st Undergraduate batch was held in 2020. In 2021, the University moved to its permanent campus at Kemal Ataturk Avenue, Banani."
+        ]
+      },
+      {
+        "tag": "mission",
+        "patterns": ["what is the mission of this university", "mission of this university", "mission of University of Scholars", "tell me about the mission of your university", "vision", "what is the vision of University of Scholars?", "can you tell me the mission of your university?", "what does the University of Scholars aim to do?"],
+        "responses": [
+          "The International University of Scholars, popularly known as the University of Scholars, started its journey in 2015 with a campus at Badda with five departments at the outset. The Trustee Board of the University aims to establish a research-intensive modern private university for Bangladeshi and international students who will produce world-class researchers and industry-leading professionals. The first batch of enrolment was done in 2016. The graduation of the 1st Master's batch was held in 2018, and the graduation of the 1st Undergraduate batch was held in 2020. In 2021, the University moved to its permanent campus at Kemal Ataturk Avenue, Banani.",
+          "To build highly competent professionals to meet the need of multi-skilled human resources in order to contribute towards sustainable development locally and globally."
+        ]
+      },
+      {
+        "tag": "campus",
+        "patterns": ["campus", "Where is the campus?", "campus location", "University of Scholars campus", "where is the university located?", "can you tell me about the campus?", "where is the university campus?", "what is the campus like?", "what facilities does the campus have?"],
+        "responses": [
+          "We say we have the most well-decorated campus among all the universities. The University has a beautiful mosque and a library on the 10th floor with a separate study zone area where the students have all-time access. A play zone is located on the 16th floor where students can spend their leisure time enjoying playing games like billiards, air hockey, table tennis, and also play station games.",
+          "Address: Bulu Ocean Tower, 40 Kemal Ataturk Ave, Banani, Dhaka 1212."
+        ]
+      },
+      {
+          "tag": "facilities",
+          "patterns": ["What facilities are available at the university?", "Do you have a gym?", "What facilities are available for students?", "What is available for student support?"],
+          "responses": ["We provide a range of student facilities, including a library, gym, cafeterias, student lounges, and recreational areas."]
+        },
+        {
+          "tag": "faculty",
+          "patterns": ["Who are the faculty members?", "Can you tell me about the faculty?", "Who teaches at the university?", "How experienced is the faculty?"],
+          "responses": ["Our faculty consists of highly qualified professionals with years of experience in their respective fields."]
+        },
+        {
+          "tag": "hostel",
+          "patterns": ["Do you have a hostel?", "What is the hostel facility like?", "Can I stay in a hostel?", "Are there any hostels available for students?"],
+          "responses": ["Yes, we have hostel facilities for students with comfortable accommodations and all necessary amenities."]
+        },
+        {
+          "tag": "events",
+          "patterns": ["What events are happening at the university?", "Are there any events or activities at the university?", "What events can students attend?"],
+          "responses": ["The University of Scholars organizes numerous events, including seminars, cultural activities, sports events, and academic workshops."]
+        },
+        {
+          "tag": "library",
+          "patterns": ["What is available in the library?", "What kind of books can I find in the library?", "Can I access the library online?"],
+          "responses": ["Our library has a vast collection of books, journals, and e-resources to support your academic studies."]
+        },
+        {
+          "tag": "career_services",
+          "patterns": ["Do you have career services?", "What career support is available for students?", "How can I get a job after graduation?", "Do you offer career counseling?"],
+          "responses": ["Yes, we have a dedicated career services team to help with job placement, internships, career counseling, and skill development."]
+        },
+        {
+          "tag": "internships",
+          "patterns": ["Do you offer internships?", "How can I get an internship?", "Are there any internship opportunities available?"],
+          "responses": ["We provide internship opportunities in various industries to give students hands-on experience and improve their career prospects."]
+        },
+        {
+          "tag": "research",
+          "patterns": ["Do you support research?", "Can students participate in research?", "What research opportunities are available?"],
+          "responses": ["The University encourages students to participate in research projects, with various research centers and faculty-led initiatives."]
+        },
+        {
+          "tag": "student_life",
+          "patterns": ["What is student life like?", "Tell me about student life at the university.", "How is the campus culture?", "What activities are available for students?"],
+          "responses": ["Student life at the University of Scholars is vibrant, with plenty of social events, clubs, sports, and academic activities to be part of."]
+        },
+        {
+          "tag": "admissions_deadlines",
+          "patterns": ["What are the admission deadlines?", "When do I need to apply for admission?", "What is the last date to apply?"],
+          "responses": ["The admission deadline for the upcoming semester is [date]. Be sure to check the official website for updates."]
+        },
+        {
+          "tag": "scholarship_details",
+          "patterns": ["Can you tell me about available scholarships?", "What scholarships are available?", "How can I apply for a scholarship?"],
+          "responses": ["We offer various scholarships, including need-based, merit-based, and sports scholarships. Please visit the scholarship section of our website for more details."]
+        },
+        {
+          "tag": "admissions_criteria",
+          "patterns": ["What are the admission criteria?", "How can I get admitted to your university?", "What are the entry requirements?"],
+          "responses": ["To apply, you need to meet the minimum academic requirements and submit the necessary documents. Please refer to our admissions page for detailed requirements."]
+        },
+        {
+          "tag": "alumni",
+          "patterns": ["Do you have an alumni network?", "How can I join the alumni network?", "What is the alumni community like?"],
+          "responses": ["We have a strong alumni network that helps current students with career advice, internships, and job placements."]
+        },
+        {
+          "tag": "student_support",
+          "patterns": ["Do you offer student support?", "How can students get help with their studies?", "Is there academic support available?"],
+          "responses": ["Yes, we provide academic counseling, tutoring services, and psychological support to ensure our students' success and well-being."]
+        },
+        {
+          "tag": "exchange_programs",
+          "patterns": ["Do you have exchange programs?", "Can I study abroad through your university?", "Are there international exchange programs?"],
+          "responses": ["Yes, we have student exchange programs that allow you to study at partner universities around the world."]
+        },
+        {
+          "tag": "visa_information",
+          "patterns": ["How can I apply for a student visa?", "Do I need a visa to study here?", "Can you provide visa information for international students?"],
+          "responses": ["International students may need a visa to study at our university. Please visit the international office for detailed visa application guidelines."]
+        },
+        {
+          "tag": "transportation",
+          "patterns": ["Is transportation available for students?", "Do you have transport services?", "How can I get to the campus?"],
+          "responses": ["Unfortunately, we do not have transportation services at this time, but there are several public transport options nearby."]
+        },
+        {
+          "tag": "workshops_and_seminars",
+          "patterns": ["Do you offer workshops and seminars?", "Are there any upcoming seminars?", "What workshops are available for students?"],
+          "responses": ["Yes, the university hosts a variety of workshops and seminars throughout the year to enhance skills and knowledge in various fields."]
+        },
+        {
+          "tag": "student_health_services",
+          "patterns": ["Do you have a health center?", "Is there any medical support for students?", "Can students access health services on campus?"],
+          "responses": ["Yes, we have a health center on campus that provides basic medical services, including consultations, treatments, and health advice."]
+        },
+        {
+              "tag": "student_dress_code",
+              "patterns": ["Is there a dress code at the university?", "What is the dress code?", "Do I need to follow any dress code?"],
+              "responses": ["There is no strict dress code at the University of Scholars. However, students are expected to dress in a professional and respectful manner while on campus."]
+            },
+            {
+              "tag": "class_schedule",
+              "patterns": ["When do classes start?", "What time do classes begin?", "Can you tell me the class schedule?", "How do I know my class timings?"],
+              "responses": ["Class schedules are provided at the beginning of each semester and can be accessed via the student portal. You can also check the notice board for updates."]
+            },
+            {
+              "tag": "payment_methods",
+              "patterns": ["How can I pay my fees?", "What are the payment methods for tuition fees?", "How do I pay my fees?"],
+              "responses": ["Tuition fees can be paid via bank transfer, online payment portals, or at the university’s finance office. Please check the university's payment guidelines for more details."]
+            },
+            {
+              "tag": "student_email",
+              "patterns": ["How can I get my student email?", "Do I get a university email?", "What is my student email?"],
+              "responses": ["Yes, all students are provided with a university email address. You will receive it after your registration is completed."]
+            },
+            {
+              "tag": "campus_security",
+              "patterns": ["Is the campus safe?", "Do you have security on campus?", "How safe is the university campus?"],
+              "responses": ["Yes, the campus is equipped with 24/7 security and surveillance systems to ensure the safety of students, staff, and visitors."]
+            },
+            {
+              "tag": "study_abroad",
+              "patterns": ["Can I study abroad during my program?", "Does the university offer study abroad programs?", "Is there a chance to study abroad?"],
+              "responses": ["Yes, the university offers several study abroad opportunities in collaboration with partner universities around the world."]
+            },
+            {
+              "tag": "university_policies",
+              "patterns": ["Where can I find the university policies?", "What are the rules and regulations?", "Can I see the university policies?"],
+              "responses": ["University policies, including rules and regulations, can be found on the official website under the 'Policies' section."]
+            },
+            {
+              "tag": "university_ranking",
+              "patterns": ["What is the ranking of the university?", "How is your university ranked?", "Is your university ranked globally?"],
+              "responses": ["The University of Scholars is ranked among the top private universities in Bangladesh. For more information, please refer to the rankings section of our website."]
+            },
+            {
+              "tag": "student_clubs_and_activities",
+              "patterns": ["What student clubs are available?", "What kind of activities are there for students?", "Are there any extracurricular activities?"],
+              "responses": ["We have a variety of student clubs and extracurricular activities ranging from sports and arts to academic and social clubs. You can join based on your interests."]
+            },
+            {
+              "tag": "campus_facilities",
+              "patterns": ["What facilities does the campus offer?", "Tell me about the campus facilities.", "What facilities are available on campus?"],
+              "responses": ["Our campus offers state-of-the-art facilities including lecture halls, laboratories, a library, a gym, and recreational areas for students."]
+            },
+            {
+              "tag": "student_feedback",
+              "patterns": ["Can I give feedback about the university?", "How can I give feedback?", "Where can I submit feedback for the university?"],
+              "responses": ["Yes, we welcome student feedback! You can submit feedback through the student portal or directly at the student affairs office."]
+            },
+            {
+              "tag": "transportation_options",
+              "patterns": ["Are there any public transport options to the university?", "How do I get to the campus by public transport?", "Can I use public transportation to reach the university?"],
+              "responses": ["Yes, the university is well-connected by public transport, including buses and metro stations. You can find detailed directions on the university’s website."]
+            },
+            {
+              "tag": "tuition_fee_schedule",
+              "patterns": ["When do I need to pay my tuition fees?", "What is the tuition fee payment schedule?", "Can you tell me the fee payment deadlines?"],
+              "responses": ["Tuition fees are due at the start of each semester. You can find the exact payment deadlines and schedule on the university’s finance page."]
+      }
+
+]}
